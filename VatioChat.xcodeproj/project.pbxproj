@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		08D2B420A7C90EF56FD749AE /* DraftAttachment.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE5F50A40AA99CEA90D4DA07 /* DraftAttachment.swift */; };
+		095D498D5102370C48E2A116 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE936C1CDB315723D961EE32 /* SettingsView.swift */; };
+		0A3FBCDD1AD8D50D9E163513 /* TypingIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC26C3F0F8046CAE17503517 /* TypingIndicator.swift */; };
+		19C50FCA1BF6D516F9AEEEA2 /* AppSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10B05AC5B5012AC797EFDF69 /* AppSettings.swift */; };
+		258323655E444FED43C4D666 /* MarkdownText.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAEA4F666D5F236E66A3033B /* MarkdownText.swift */; };
+		38316B4B74B1BFBFB3A40743 /* NoticeBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A8761A97AC77C60259501F /* NoticeBanner.swift */; };
+		3A45BE6762DA1151CFE6F4CD /* FeedbackCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9848C375BD7A9AE2609C2837 /* FeedbackCard.swift */; };
+		5C0E019D5BDB6B63261E21AA /* Vatio in Frameworks */ = {isa = PBXBuildFile; productRef = E875187F23E02776F428D72B /* Vatio */; };
+		62548C641ED15ED8CF64BD68 /* ChatStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3217F35AD1305D83C94AD1D /* ChatStore.swift */; };
+		731737DCFB95E9B781C76BE8 /* VoiceRecorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9283E66930436DF132BD8934 /* VoiceRecorder.swift */; };
+		7A6847E071AA52ACB6811675 /* AttachmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126E91581120E0C9DBB25368 /* AttachmentView.swift */; };
+		8B0DC0902D08BDDABA8E9C60 /* AppConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BC09683EFD3AE8835CEB94 /* AppConfig.swift */; };
+		95C5A4962575E562ADB6D48D /* AgentAvatar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D1F33E2D5F070314BE69560 /* AgentAvatar.swift */; };
+		9AC6952B3E86457678EC4461 /* MessageRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6C7D04335E4A3AB2161099D /* MessageRow.swift */; };
+		B0B2AB8D569FC438CB23D08C /* HexColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F8F675EA8F101F3E7E287DB /* HexColor.swift */; };
+		B8248E9C5D985C61397B841A /* EmptyState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AE789AFA8A6CCCB4F97E146 /* EmptyState.swift */; };
+		D8F8D3E46EE750779A7585D4 /* ConversationsSidebar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43901C050BA1FE2F341616DE /* ConversationsSidebar.swift */; };
+		DEA3FCECA1AF1596053E872A /* VatioChatApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0518E690A0366F6B300572D3 /* VatioChatApp.swift */; };
+		DF12962A9D1E81114E3A83AE /* MessageList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C880EAB0530A0AAA9E0D07 /* MessageList.swift */; };
+		E7E281F653C5A94447361DEC /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF79A761897B35A155773DDE /* RootView.swift */; };
+		ED657762BB0457ECB65EDC70 /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA0D759ACCAE1F22A89B8BA /* ChatView.swift */; };
+		F3DE7452991CC75F08E7DE22 /* Composer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 086DB012AB9A0613AF8D63C2 /* Composer.swift */; };
+		F92E5250EAEBA7EF21DEB045 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5108A346631E515E67BCEAFA /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0518E690A0366F6B300572D3 /* VatioChatApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VatioChatApp.swift; sourceTree = "<group>"; };
+		086DB012AB9A0613AF8D63C2 /* Composer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Composer.swift; sourceTree = "<group>"; };
+		0AE789AFA8A6CCCB4F97E146 /* EmptyState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyState.swift; sourceTree = "<group>"; };
+		0D1F33E2D5F070314BE69560 /* AgentAvatar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgentAvatar.swift; sourceTree = "<group>"; };
+		0F8F675EA8F101F3E7E287DB /* HexColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexColor.swift; sourceTree = "<group>"; };
+		10B05AC5B5012AC797EFDF69 /* AppSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSettings.swift; sourceTree = "<group>"; };
+		126E91581120E0C9DBB25368 /* AttachmentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttachmentView.swift; sourceTree = "<group>"; };
+		38C880EAB0530A0AAA9E0D07 /* MessageList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageList.swift; sourceTree = "<group>"; };
+		43901C050BA1FE2F341616DE /* ConversationsSidebar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationsSidebar.swift; sourceTree = "<group>"; };
+		5108A346631E515E67BCEAFA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9283E66930436DF132BD8934 /* VoiceRecorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceRecorder.swift; sourceTree = "<group>"; };
+		93A88807E73E710AA406C5BA /* VatioChat.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = VatioChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9848C375BD7A9AE2609C2837 /* FeedbackCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedbackCard.swift; sourceTree = "<group>"; };
+		AAEA4F666D5F236E66A3033B /* MarkdownText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkdownText.swift; sourceTree = "<group>"; };
+		AF79A761897B35A155773DDE /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		B3217F35AD1305D83C94AD1D /* ChatStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatStore.swift; sourceTree = "<group>"; };
+		B7BC09683EFD3AE8835CEB94 /* AppConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConfig.swift; sourceTree = "<group>"; };
+		C9A8761A97AC77C60259501F /* NoticeBanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoticeBanner.swift; sourceTree = "<group>"; };
+		E6C7D04335E4A3AB2161099D /* MessageRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageRow.swift; sourceTree = "<group>"; };
+		EBA0D759ACCAE1F22A89B8BA /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
+		EE936C1CDB315723D961EE32 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		FC26C3F0F8046CAE17503517 /* TypingIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypingIndicator.swift; sourceTree = "<group>"; };
+		FE5F50A40AA99CEA90D4DA07 /* DraftAttachment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DraftAttachment.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9C162C150672FBDB277091B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C0E019D5BDB6B63261E21AA /* Vatio in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05222D966ABB243C97119D26 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0D1F33E2D5F070314BE69560 /* AgentAvatar.swift */,
+				126E91581120E0C9DBB25368 /* AttachmentView.swift */,
+				EBA0D759ACCAE1F22A89B8BA /* ChatView.swift */,
+				086DB012AB9A0613AF8D63C2 /* Composer.swift */,
+				43901C050BA1FE2F341616DE /* ConversationsSidebar.swift */,
+				0AE789AFA8A6CCCB4F97E146 /* EmptyState.swift */,
+				9848C375BD7A9AE2609C2837 /* FeedbackCard.swift */,
+				AAEA4F666D5F236E66A3033B /* MarkdownText.swift */,
+				38C880EAB0530A0AAA9E0D07 /* MessageList.swift */,
+				E6C7D04335E4A3AB2161099D /* MessageRow.swift */,
+				C9A8761A97AC77C60259501F /* NoticeBanner.swift */,
+				AF79A761897B35A155773DDE /* RootView.swift */,
+				EE936C1CDB315723D961EE32 /* SettingsView.swift */,
+				FC26C3F0F8046CAE17503517 /* TypingIndicator.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0C23E3A6FBBB93B98EF75AFD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				93A88807E73E710AA406C5BA /* VatioChat.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AD966C63ABA9FB5D815759F7 = {
+			isa = PBXGroup;
+			children = (
+				FE3906EFDF87FDDDA5D04A81 /* VatioChat */,
+				0C23E3A6FBBB93B98EF75AFD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FE3906EFDF87FDDDA5D04A81 /* VatioChat */ = {
+			isa = PBXGroup;
+			children = (
+				B7BC09683EFD3AE8835CEB94 /* AppConfig.swift */,
+				10B05AC5B5012AC797EFDF69 /* AppSettings.swift */,
+				5108A346631E515E67BCEAFA /* Assets.xcassets */,
+				B3217F35AD1305D83C94AD1D /* ChatStore.swift */,
+				FE5F50A40AA99CEA90D4DA07 /* DraftAttachment.swift */,
+				0F8F675EA8F101F3E7E287DB /* HexColor.swift */,
+				0518E690A0366F6B300572D3 /* VatioChatApp.swift */,
+				9283E66930436DF132BD8934 /* VoiceRecorder.swift */,
+				05222D966ABB243C97119D26 /* Views */,
+			);
+			path = VatioChat;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		805A91BB8DF28E286AC35433 /* VatioChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB524D17D96D44EEEAEF5D87 /* Build configuration list for PBXNativeTarget "VatioChat" */;
+			buildPhases = (
+				DD3ED66519E9B19437895A3F /* Sources */,
+				3DAFB0A27F2C2C8E556E4676 /* Resources */,
+				9C162C150672FBDB277091B7 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VatioChat;
+			packageProductDependencies = (
+				E875187F23E02776F428D72B /* Vatio */,
+			);
+			productName = VatioChat;
+			productReference = 93A88807E73E710AA406C5BA /* VatioChat.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18C9A298625BFC96AADCDD7E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+				};
+			};
+			buildConfigurationList = 568431E591EDD952E1830921 /* Build configuration list for PBXProject "VatioChat" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = AD966C63ABA9FB5D815759F7;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				7E55ABDFF82AA71E7E827241 /* XCRemoteSwiftPackageReference "ios" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 0C23E3A6FBBB93B98EF75AFD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				805A91BB8DF28E286AC35433 /* VatioChat */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3DAFB0A27F2C2C8E556E4676 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F92E5250EAEBA7EF21DEB045 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DD3ED66519E9B19437895A3F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B0DC0902D08BDDABA8E9C60 /* AppConfig.swift in Sources */,
+				19C50FCA1BF6D516F9AEEEA2 /* AppSettings.swift in Sources */,
+				62548C641ED15ED8CF64BD68 /* ChatStore.swift in Sources */,
+				08D2B420A7C90EF56FD749AE /* DraftAttachment.swift in Sources */,
+				B0B2AB8D569FC438CB23D08C /* HexColor.swift in Sources */,
+				DEA3FCECA1AF1596053E872A /* VatioChatApp.swift in Sources */,
+				731737DCFB95E9B781C76BE8 /* VoiceRecorder.swift in Sources */,
+				95C5A4962575E562ADB6D48D /* AgentAvatar.swift in Sources */,
+				7A6847E071AA52ACB6811675 /* AttachmentView.swift in Sources */,
+				ED657762BB0457ECB65EDC70 /* ChatView.swift in Sources */,
+				F3DE7452991CC75F08E7DE22 /* Composer.swift in Sources */,
+				D8F8D3E46EE750779A7585D4 /* ConversationsSidebar.swift in Sources */,
+				B8248E9C5D985C61397B841A /* EmptyState.swift in Sources */,
+				3A45BE6762DA1151CFE6F4CD /* FeedbackCard.swift in Sources */,
+				258323655E444FED43C4D666 /* MarkdownText.swift in Sources */,
+				DF12962A9D1E81114E3A83AE /* MessageList.swift in Sources */,
+				9AC6952B3E86457678EC4461 /* MessageRow.swift in Sources */,
+				38316B4B74B1BFBFB3A40743 /* NoticeBanner.swift in Sources */,
+				E7E281F653C5A94447361DEC /* RootView.swift in Sources */,
+				095D498D5102370C48E2A116 /* SettingsView.swift in Sources */,
+				0A3FBCDD1AD8D50D9E163513 /* TypingIndicator.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2DE9082FAA3BFE0BF78A24A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Vatio Chat";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "To send voice notes to the agent.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ai.vatio.chat;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3358DDCB52889AEB91D88BAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		66A6514B8BF7D0E8BA0A8F7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		871B8980FA4F9D4C8E5FE2C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Vatio Chat";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "To send voice notes to the agent.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ai.vatio.chat;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		568431E591EDD952E1830921 /* Build configuration list for PBXProject "VatioChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66A6514B8BF7D0E8BA0A8F7B /* Debug */,
+				3358DDCB52889AEB91D88BAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		AB524D17D96D44EEEAEF5D87 /* Build configuration list for PBXNativeTarget "VatioChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DE9082FAA3BFE0BF78A24A4 /* Debug */,
+				871B8980FA4F9D4C8E5FE2C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		7E55ABDFF82AA71E7E827241 /* XCRemoteSwiftPackageReference "ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/vatio-ai/ios";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.4.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E875187F23E02776F428D72B /* Vatio */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7E55ABDFF82AA71E7E827241 /* XCRemoteSwiftPackageReference "ios" */;
+			productName = Vatio;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 18C9A298625BFC96AADCDD7E /* Project object */;
+}
