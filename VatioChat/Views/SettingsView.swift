@@ -14,14 +14,14 @@ struct SettingsView: View {
             Form {
                 Section {
                     TextField("Workspace", text: $draft.workspace)
-                    TextField("Publishable token (vatpub_…)", text: $draft.token)
+                    TextField("Publishable key (vatpub_…)", text: $draft.token)
                         .font(.body.monospaced())
                     TextField("Base URL", text: $draft.baseURL)
                         .keyboardType(.URL)
                 } header: {
                     Text("Agent")
                 } footer: {
-                    Text("The token must allow this app's origin, \(store.origin). Create one with `vatio tokens create --origin \(store.origin)`.")
+                    Text("The publishable key must allow this app's origin, \(store.origin). Create one with `vatio keys create publishable --origin \(store.origin)`.")
                 }
 
                 Section {

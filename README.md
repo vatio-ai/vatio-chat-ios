@@ -49,23 +49,23 @@ On a device, pick your team under **Signing & Capabilities**.
 
 ## Point it at your own agent
 
-A publishable token only works from the origins it allows, and an iOS app's
+A publishable key only works from the origins it allows, and an iOS app's
 origin is `ios-app://` plus its bundle id: `ios-app://ai.vatio.chat` for this
 one (Settings shows it under About).
 
-1. Create a token that allows it:
+1. Create a publishable key that allows it:
 
    ```bash
-   vatio tokens create --env preview --origin ios-app://ai.vatio.chat
+   vatio keys create publishable --env preview --origin ios-app://ai.vatio.chat
    ```
 
-   Or add the origin to a token you already have in the tokens section of
-   **Channels → Web widget** in the inbox. If you change the bundle id, the
+   Or add the origin to a key you already have under
+   **Settings → API keys** in the inbox. If you change the bundle id, the
    origin changes with it.
 2. Put your workspace and the token in `VatioChat/AppConfig.swift`, or paste
    them in the app's Settings.
 
-A `vatpub_` token is meant to ship inside an app. A `vat_` token is a developer
+A `vatpub_` key is meant to ship inside an app. A `vat_` token is a developer
 secret: never put one in an app.
 
 To try private tools, paste a visitor token in **Settings → Signed-in user**:
@@ -80,7 +80,7 @@ through it.
 
 | File | What it shows how to do |
 |---|---|
-| `VatioChat/AppConfig.swift` | Ship a default agent: workspace, publishable token and base URL in one place. |
+| `VatioChat/AppConfig.swift` | Ship a default agent: workspace, publishable key and base URL in one place. |
 | `VatioChat/ChatStore.swift` | Own the `Vatio` client and the current `VatioChat`; make a new chat when the settings or the visitor token change; load `config()` and `conversations(visitorToken:)`; send, open, rate; turn a `VatioError` into a message (`origin_not_allowed` included). |
 | `VatioChat/AppSettings.swift` | Keep the workspace, token, base URL and visitor token in `UserDefaults`. |
 | `VatioChat/VatioChatApp.swift` | Create the store once, for the life of the app. |
@@ -98,7 +98,7 @@ through it.
 | `VatioChat/DraftAttachment.swift` | Turn a picked photo into a `VatioUpload`: JPEG, at most 2048 px, well under 8 MB. |
 | `VatioChat/VoiceRecorder.swift` | Record a voice note to .m4a with `AVAudioRecorder`, asking for the microphone first. |
 | `VatioChat/Views/ConversationsSidebar.swift` | List the visitor's past conversations and switch with `chat.open(_:)`. |
-| `VatioChat/Views/SettingsView.swift` | Change the agent and the visitor token, and show the origin the token must allow. |
+| `VatioChat/Views/SettingsView.swift` | Change the agent and the visitor token, and show the origin the key must allow. |
 | `VatioChat/Views/NoticeBanner.swift` | Show an error briefly. |
 | `VatioChat/HexColor.swift` | Read the agent's `#RRGGBB` accent color. |
 | `project.yml` | The Xcode project, for XcodeGen. |

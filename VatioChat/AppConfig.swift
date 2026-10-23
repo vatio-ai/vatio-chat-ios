@@ -3,11 +3,11 @@ import Foundation
 /// The agent the app talks to out of the box: Vatio's own, the one that
 /// answers on vatio.ai.
 ///
-/// To point the app at your agent, put your workspace and a publishable token
+/// To point the app at your agent, put your workspace and a publishable key
 /// here. The token only works from origins it allows, and an iOS app's origin
 /// is `ios-app://` plus its bundle id, so create it with this app's:
 ///
-///     vatio tokens create --env preview --origin ios-app://ai.vatio.chat
+///     vatio keys create publishable --env preview --origin ios-app://ai.vatio.chat
 ///
 /// (`--env live` for production; change the origin if you change the bundle
 /// id.) A publishable `vatpub_` token is meant to ship inside an app. A `vat_`
