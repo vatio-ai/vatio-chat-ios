@@ -10,7 +10,8 @@ file does one thing and says why it does it that way, so you, or the coding
 agent working on your app, can find the part you need and copy it.
 
 The quickest way to put an agent in your own app is `npx @vatio-ai/skills`,
-then `/vatio-init` and `/vatio-add-to-app` in Claude Code.
+then `/vatio-init` in Claude Code, and then asking it to add the
+[iOS SDK](https://vatio.ai/docs/guides/ai-agent-in-your-ios-app).
 
 ## Features
 
