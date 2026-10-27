@@ -424,7 +424,7 @@
 			repositoryURL = "https://github.com/vatio-ai/ios";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 0.4.2;
+				minimumVersion = 0.4.3;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
