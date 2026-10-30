@@ -39,11 +39,30 @@ struct MessageRow: View {
                 AttachmentView(attachment: attachment)
             }
             if showsContent {
-                MarkdownText(message.content)
+                MarkdownText(buttons.isEmpty ? message.content : message.textWithoutButtons)
                     .textSelection(.enabled)
+            }
+            ForEach(buttons, id: \.url) { button in
+                Link(destination: button.url) {
+                    Label(button.title, systemImage: "arrow.up.right")
+                        .fontWeight(.medium)
+                        .padding(.horizontal, 6)
+                        .padding(.vertical, 4)
+                }
+                .buttonStyle(.bordered)
+                .buttonBorderShape(.capsule)
             }
         }
         .frame(maxWidth: .infinity, alignment: .leading)
+    }
+
+    // The links the reply sends as buttons (https://vatio.ai/docs/links#buttons):
+    // drawn under it, and out of its text.
+    private var buttons: [(title: String, url: URL)] {
+        message.buttons.compactMap { button in
+            guard button.type == "url", let url = button.url else { return nil }
+            return (button.title, url)
+        }
     }
 
     // A message that was only a file carries a stand-in ("Image", "Audio")

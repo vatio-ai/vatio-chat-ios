@@ -7,7 +7,7 @@ options:
 packages:
   Vatio:
     url: https://github.com/vatio-ai/ios
-    from: "0.4.3"
+    from: "0.5.0"
 targets:
   VatioChat:
     type: application
