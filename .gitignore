@@ -6,6 +6,9 @@ DerivedData/
 # Swift Package Manager
 .build/
 .swiftpm/
+# Not pinned: the app builds against the newest published SDK, as a fresh
+# clone does.
+Package.resolved
 
 # macOS
 .DS_Store
